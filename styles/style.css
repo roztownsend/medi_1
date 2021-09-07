@@ -1,0 +1,102 @@
+
+/* Document-wide elements */
+
+body {
+    background-color: #FFF;
+    font-family: "Roboto", sans-serif;
+    color: #1B0A42;
+}
+
+button {
+    background: #FC569A;
+    border-radius: 6px;
+    color: #FFF;
+    font-weight: bold;
+    line-height: 200%;
+    padding: 10px;
+    margin: 10px;
+    border-style: none;
+}
+
+/* Header-level elements */
+
+header {
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    max-width: 1600px;
+    width:100%;
+}
+
+h3.logo {
+    font-family: "Circular Std", "Coda Caption", sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 160%;
+    letter-spacing: -0.02em;
+    display: inline-block;
+    margin-left: 80px;
+}
+
+.logo-dot {
+    color: #FC569A;
+}
+
+nav  {
+    letter-spacing: 0.02em;
+    list-style: none;
+    display: inline-block;
+    width: 70%;
+}
+
+nav li {
+    display: inline;
+    padding-left: 20px;
+}
+
+.sign-in {
+    display: inline-block;
+}
+
+/* Main section elements */
+
+main {
+    max-width: 1600px;
+    float: right;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+section {
+    display: inline-block;
+}
+
+.info-headline {
+    width: 495px;
+    height: 152px;
+    left: 200px;
+    top: 280.71px;
+    font-family: "Ramaraja", serif;
+    font-size: 72px;
+    line-height: 76px;
+    letter-spacing: 0.02em;
+}
+
+.info-text {
+    width: 581.49px;
+    height: 96px;
+    left: 200px;
+    top: 442px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #9A9A9A;
+}
+
+img {
+    width: 778px;
+    height: 526px;
+    left: 800px;
+    top: 205px;
+}
