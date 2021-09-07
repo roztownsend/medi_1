@@ -11,6 +11,7 @@
 body {
     background-color: #FFF;
     font-family: "Roboto", sans-serif;
+    letter-spacing: 0.02em;
     color: #1B0A42;
     max-width: 1600px;
 }
@@ -33,9 +34,8 @@ button {
 header {
     font-size: 16px;
     line-height: 24px;
-    text-decoration: none;
     max-width: 1600px;
-    width:100%;
+    width: 100%;
     display: flex;
 }
 
@@ -52,7 +52,6 @@ h3.logo {
 }
 
 nav  {
-    letter-spacing: 0.02em;
     list-style: none;
     padding-top: 15px;
 }
@@ -80,31 +79,35 @@ main {
     padding-top: 5%;
     padding-bottom: 5%;
 }
-
 section {
     display: inline-block;
+    vertical-align: top;
 }
 
 .info-headline {
     width: 550px;
-    height: 152px;
     font-family: "Ramaraja", serif;
     font-size: 72px;
     line-height: 76px;
-    letter-spacing: 0.02em;
+    margin-bottom: -10px;
 }
 
 .info-text {
     width: 581.49px;
-    height: 96px;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     line-height: 32px;
-    letter-spacing: 0.02em;
     color: #9A9A9A;
+    margin-bottom:20px;
+}
+
+.learnmore-button {
+    margin: 0px;
 }
 
 img {
     width: 778px;
     height: 526px;
+    left: 800px;
+    top: 205px;
 }
