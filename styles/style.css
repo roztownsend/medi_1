@@ -8,12 +8,13 @@
     src: url(/fonts/circular-std-medium-500.ttf);
 }
 
-body {
+body, a {
     background-color: #FFF;
     font-family: "Roboto", sans-serif;
     letter-spacing: 0.02em;
     color: #1B0A42;
     max-width: 1600px;
+    text-decoration: none;
 }
 
 button {
@@ -39,7 +40,7 @@ header {
     display: flex;
 }
 
-h3.logo {
+.logo {
     font-family: "Circular Std", sans-serif;
     font-weight: 900;
     font-size: 30px;
@@ -93,7 +94,7 @@ section {
 }
 
 .info-text {
-    width: 581.49px;
+    width: 581px;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     line-height: 32px;
